@@ -1,17 +1,11 @@
-Ceilometer is a vertically oriented lidar that detects the cloud base height using the backscattering signal. In this joint bonus assignment, you will visualize the cloud structure and atmospheric conditions by analyzing ceilometer and surface observation data collected at NTU on July 31, 2024.
+分析使用GPM* dataset 2021年6月(6/1-6/30)  一共30筆的每日累積雨量資料，地圖範圍是 100-142°E，8-40 °N，資料約11.8 MB 
 
-The description and the link of the data files are as below:
+GPM下載下來的檔案格式是NetCDF (nc檔 ,有修過大氣系程式的應該都會讀取)
 
-20240731_backsca.csv: backscattering signal (Unit:  10^(-6) [srad]^(-1) [km]^(-1))
+https://drive.google.com/drive/folders/1FneMDdRDzA60DZfJSuBltGbywytyQv_V?usp=sharingLinks to an external site.
 
-https://www.dropbox.com/scl/fi/s8acr3j5lfg9xv7u5wlot/20240731_backsca.csv?rlkey=ijc9y1i69fa4rk1nc4ruatg3l&dl=0Links to an external site.
+ 繪圖分析討論
 
-20240731_cldbase.csv: CL31 status (no unit) and detected cloud bases (Unit: m)
+(1)2021年6/1-6/30 期間 東亞地區雨帶的地利分布和時間特徵
 
-https://www.dropbox.com/scl/fi/vsv8f4l2pefc19ps53plx/20240731_cldbase.csv?rlkey=6h07f6c1w22s3kxa4qcnphmrs&dl=0Links to an external site.
-
-NTU_stn_20240731.csv: surface observation at NTU
-
-(Units: pressure [mb], temperature [°C], dew point [°C], relative humidity [%])
-
-https://www.dropbox.com/scl/fi/ciqookxhb2yew3fk3sshg/NTU_stn_20240731.csv?rlkey=j4ubm9gy2jwj9qj79a4eiinoo&dl=0
+(2)其中哪一事件台灣陸地有顯著降水  查詢根據CWA CODIS (https://codis.cwa.gov.tw/StationData)資料庫檢查交叉確認地面雨量筒是否有對應的紀錄
