@@ -1,0 +1,17 @@
+Ceilometer is a vertically oriented lidar that detects the cloud base height using the backscattering signal. In this joint bonus assignment, you will visualize the cloud structure and atmospheric conditions by analyzing ceilometer and surface observation data collected at NTU on July 31, 2024.
+
+The description and the link of the data files are as below:
+
+20240731_backsca.csv: backscattering signal (Unit:  10^(-6) [srad]^(-1) [km]^(-1))
+
+https://www.dropbox.com/scl/fi/s8acr3j5lfg9xv7u5wlot/20240731_backsca.csv?rlkey=ijc9y1i69fa4rk1nc4ruatg3l&dl=0Links to an external site.
+
+20240731_cldbase.csv: CL31 status (no unit) and detected cloud bases (Unit: m)
+
+https://www.dropbox.com/scl/fi/vsv8f4l2pefc19ps53plx/20240731_cldbase.csv?rlkey=6h07f6c1w22s3kxa4qcnphmrs&dl=0Links to an external site.
+
+NTU_stn_20240731.csv: surface observation at NTU
+
+(Units: pressure [mb], temperature [°C], dew point [°C], relative humidity [%])
+
+https://www.dropbox.com/scl/fi/ciqookxhb2yew3fk3sshg/NTU_stn_20240731.csv?rlkey=j4ubm9gy2jwj9qj79a4eiinoo&dl=0
